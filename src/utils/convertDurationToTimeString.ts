@@ -7,5 +7,6 @@ export function convertDurationToTimeString(duration: number){
   .map(unit => String(unit).padStart(2, '0'))
   .join(':')
 
+  // console.log(duration)
   return timeString
 }
